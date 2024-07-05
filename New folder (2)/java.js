@@ -22,7 +22,9 @@ for(let i=0; i<box.length; i++){boxs.innerHTML+=
 `<div class="card" style="width: 18rem;">
 <img src="k.jpg" class="card-img-top" alt="...">
 <div class="card-body">
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   <h5 class="card-title">${box[i] . Name} </h5>
+  <p class="card-text">${box[i] . description}</p>
+  <p class="card-text">${box[i]. Price}</p>
 </div>
 </div>`
 }
